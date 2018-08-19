@@ -1,10 +1,12 @@
 @charset "UTF-8";
 /*
-* Blueprint.vc Simple CSS Framework
-* www.blueprint.vc/framework
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
 */
 /* Base files. */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -217,18 +219,14 @@ hr {
   border-width: 0;
   border-top: 1px solid #e1e1e1; }
 
-.u-full-width {
+.mw-100 {
   width: 100%;
   box-sizing: border-box; }
 
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
-
-.u-pull-right {
+.float-right {
   float: right; }
 
-.u-pull-left {
+.float-left {
   float: left; }
 
 /* TEXT ALIGNMENT
@@ -390,79 +388,64 @@ p {
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
-  .one.column,
-  .one.columns {
+  .col-1 {
     width: 4.6666666667%; }
-  .two.columns {
+  .col-2 {
     width: 13.3333333333%; }
-  .three.columns {
+  .col-3 {
     width: 22%; }
-  .four.columns {
+  .col-4 {
     width: 30.6666666667%; }
-  .five.columns {
+  .col-5 {
     width: 39.3333333333%; }
-  .six.columns {
+  .col-6 {
     width: 48%; }
-  .seven.columns {
+  .col-7 {
     width: 56.6666666667%; }
-  .eight.columns {
+  .col-8 {
     width: 65.3333333333%; }
-  .nine.columns {
+  .col-9 {
     width: 74%; }
-  .ten.columns {
+  .col-10 {
     width: 82.6666666667%; }
-  .eleven.columns {
+  .col-11 {
     width: 91.3333333333%; }
-  .twelve.columns {
+  .col-12 {
     width: 100%;
     margin-left: 0; }
-  .one-third.column {
+  .col-one-third {
     width: 30.6666666667%; }
-  .two-thirds.column {
+  .col-two-thirds {
     width: 65.3333333333%; }
-  .one-half.column {
+  .col-half {
     width: 48%; }
-  .offset-by-one.column,
-  .offset-by-one.columns {
+  .offset-col-1 {
     margin-left: 8.6666666667%; }
-  .offset-by-two.column,
-  .offset-by-two.columns {
+  .offset-col-2 {
     margin-left: 17.3333333333%; }
-  .offset-by-three.column,
-  .offset-by-three.columns {
+  .offset-col-3 {
     margin-left: 26%; }
-  .offset-by-four.column,
-  .offset-by-four.columns {
+  .offset-col-4 {
     margin-left: 34.6666666667%; }
-  .offset-by-five.column,
-  .offset-by-five.columns {
+  .offset-col-5 {
     margin-left: 43.3333333333%; }
-  .offset-by-six.column,
-  .offset-by-six.columns {
+  .offset-col-6 {
     margin-left: 52%; }
-  .offset-by-seven.column,
-  .offset-by-seven.columns {
+  .offset-col-7 {
     margin-left: 60.6666666667%; }
-  .offset-by-eight.column,
-  .offset-by-eight.columns {
+  .offset-col-8 {
     margin-left: 69.3333333333%; }
-  .offset-by-nine.column,
-  .offset-by-nine.columns {
+  .offset-col-9 {
     margin-left: 78%; }
-  .offset-by-ten.column,
-  .offset-by-ten.columns {
+  .offset-col-10 {
     margin-left: 86.6666666667%; }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns {
+  .offset-col-11 {
     margin-left: 95.3333333333%; }
-  .offset-by-one-third.column,
-  .offset-by-one-third.columns {
+  .offset-col-one-third {
     margin-left: 34.6666666667%; }
-  .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns {
+  .offset-col-two-thirds {
     margin-left: 69.3333333333%; }
-  .offset-by-one-half.column,
-  .offset-by-one-half.column {
+  .offset-col-half {
     margin-left: 52%; } }
 
 .container:after,
