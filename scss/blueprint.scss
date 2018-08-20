@@ -1,23 +1,20 @@
 /*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
+* Blueprint.vc Framework
+* Copyright 2018, Tim Titus
+* www.blueprint.vc
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
-* 12/9/2014
-* Sass Version by Seth Coelen https://github.com/whatsnewsaes
 */
 
 /* Base files. */
 @import "base/normalize";
-@import "base/customize";
-@import "base/functions";
+@import "base/variables";
 @import "base/base-styles";
+@import "base/functions";
 @import "base/utils";
 @import "base/typography";
 
 /* Modules */
-@import "modules/grid";
 @import "modules/buttons";
 @import "modules/forms";
 @import "modules/lists";

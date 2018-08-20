@@ -92,6 +92,9 @@ sub {
 img {
   border: 0; }
 
+svg:not(:root) {
+  overflow: hidden; }
+
 figure {
   margin: 1em 40px; }
 
@@ -827,16 +830,7 @@ form {
   margin-bottom: 2.5rem; }
 
 body {
-  background-color: #FAF7FD; }
-
-.header {
-  position: relative;
-  top: 0;
-  width: 100%;
-  background-color: #132146; }
-  .header .navBar {
-    margin: 0 auto;
-    max-width: 1200px; }
+  background-color: blue; }
 
 .container {
   position: relative;
@@ -851,30 +845,45 @@ body {
 
 .logo {
   width: 100px;
-  position: relative;
-  top: 5px;
+  position: absolute;
+  top: 40px;
   left: 20px; }
-
-.hero-title {
-  margin-top: 150px; }
 
 .section-title, .section-sub {
   transition: all .1s ease-in-out; }
+
+.hero-text-position {
+  margin-top: 360px;
+  margin-left: 20px; }
+
+.hero-title {
+  transition: all .5s ease-in-out;
+  font-size: 8rem;
+  font-weight: 600;
+  color: #132146; }
+
+.hero-sub {
+  transition: all .5s ease-in-out;
+  line-height: 25px;
+  font-size: 6rem;
+  font-weight: 300;
+  color: #132146; }
+
+@media screen and (max-width: 600px) {
+  .hero-text-position {
+    margin-top: 180px !important; }
+  .hero-title {
+    font-size: 4.5rem;
+    color: #fff; }
+  .hero-sub {
+    font-size: 3.2rem;
+    color: #fff; } }
 
 @media screen and (max-width: 1240px) {
   .section-title {
     font-size: 50px; }
   .section-sub {
     font-size: 40px; } }
-
-.card-wrapper {
-  display: grid;
-  padding: 0 20px;
-  max-width: 1200px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: 0 auto;
-  grid-gap: 5rem;
-  margin-bottom: 150px; }
 
 .card {
   background-color: #132146;
@@ -883,6 +892,8 @@ body {
   justify-content: center;
   background-color: #fff;
   box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+  align-items: center;
+  justify-content: center;
   transition: all 0.2s ease-in-out; }
   .card:hover {
     box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
@@ -899,12 +910,12 @@ body {
   height: 80px; }
 
 .footer {
-  height: 110px;
   margin: 0 auto;
   width: 100%;
   background-color: #132146;
   display: grid;
-  grid-template-columns: 1fr 30px 1fr; }
+  grid-template-columns: 1fr 30px 1fr;
+  height: 80px; }
 
 .footer-logo {
   margin-top: 20px;
@@ -917,17 +928,13 @@ body {
   .footer-email:hover {
     text-decoration: underline; }
 
-.footer-icons {
-  margin: 35px auto; }
-
-.footer-icon {
-  padding: 0 20px; }
-
 .footer-bg {
+  padding-bottom: 31px;
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: #132146; }
+  background-color: #132146;
+  height: 80px; }
 
 a svg path {
   transition: 100ms;
@@ -944,29 +951,20 @@ a svg path {
     margin-top: 30px; }
   .footer-email {
     font-size: 15px;
-    text-align: center; }
-  .footer-icon {
-    width: 15px;
-    padding: 0 10px; } }
-
-#mainNavBar {
-  padding-bottom: 4rem; }
+    text-align: center; } }
 
 .navBar a {
-  z-index: 100;
   float: right;
   color: #fff;
   padding: 20px 16px 20px 40px;
   text-decoration: none;
   font-size: 2.2rem; }
 
-.navBar {
-  background-color: #132146;
-  z-index: 100; }
-  .navBar :hover {
-    color: #FFD300; }
-  .navBar :active {
-    color: #cca900; }
+.navBar :hover {
+  color: #FFD300; }
+
+.navBar :active {
+  color: #cca900; }
 
 /*Hides the menu Icon which will show when the nav needs to be responsive*/
 .navBar .icon {
@@ -976,14 +974,14 @@ a svg path {
 @media (max-width: 700px) {
   /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
   .navBar a {
-    background-color: #132146;
-    display: none; }
+    display: none;
+    margin-top: 10px; }
   /*Brings the menu icon into view and floats it to the right*/
   .navBar a.icon {
     display: block;
     float: right;
     font-size: 35px;
-    margin-right: 10px; }
+    margin-right: 30px; }
   /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
   .navBar.responsive {
     position: relative; }

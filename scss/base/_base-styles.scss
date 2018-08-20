@@ -1,8 +1,8 @@
 // Base Styles
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 // NOTE
-// html is set to 62.5% so that all the REM measurements throughout Skeleton
-// are based on 10px sizing. So basically 1.5rem = 15px :)
+// html is set to 62.5% so that all the REM measurements throughout
+// are based on 10px sizing. So, 1rem = 10px :)
 
 html {
   font-size: 62.5%;
@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   font-family: $font-family;
   color: $font-color;
+  font-size: 17px;
 }
 
 // Links
@@ -21,10 +22,17 @@ body {
 
 a {
   color: $link-color;
+  font-weight: 600;
+  text-decoration: none;
   &:hover {
-    color: darken($link-color, 5%);
+    color: $link-hover-color;
+  }
+  &:active {
+    color: $link-active-color;
   }
 }
+
+
 
 // Misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
