@@ -72,15 +72,17 @@ oy-h = overflow-y: hidden;
 .float-left {
   float: left;
 }
-
+```
 **Centering**
-Vertical Centering
+```
+// Vertical Centering
 .vc {
   display: inline-block;
   vertical-align: middle;
 }
-
+```
 **Text Alignment*
+```
 .tc {
 	text-align: center;
 }
