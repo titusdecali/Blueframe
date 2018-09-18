@@ -1,4 +1,4 @@
-# Blueframe - Lightweight Front-end Framework
+# Blueframe - SCSS Front-end Framework
 
 Blueframe is an ultra light-weight frontend SCSS framework that provides a simple base to build your own custom framework from. It consists of css resets and short, easy to understand utility classes. Class names have been adopted from the best css frameworks including Skeleton and Boostrap, while adding a few new ones for convenience or faster typing.
 
