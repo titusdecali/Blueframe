@@ -18,7 +18,7 @@ pt-1 = padding-top: $p1
 pb-1 = padding-bottom: $p1
 ```
 
-Margin setting work the same way:
+Setting margins works the same way:
 ```
 mr-1
 ml-1
@@ -28,7 +28,7 @@ mt-1
 mb-1
 ```
 
-*EX:*
+**EX:**
 ```
 <div class="mx-1"></div>
 ```
@@ -43,7 +43,7 @@ p-rel = position: relative;
 ```
 d-block = display: block;
 d-inline = display: inline;
-.d-inline-block = display: inline-block;
+d-inline-block = display: inline-block;
 ```
 
 **Overflow Classes:**
@@ -116,16 +116,19 @@ text-align: right;
 
 **Font Weights**
 ```
-_Adjust variabels as needed_
+// Adjust variabels as needed
 .normal {
 font-weight: $normal;
 }
+
 .light {
 font-weight: $light;
 }
+
 .semibold {
   font-weight: 600;
 }
+
 .bold {
   font-weight: $bold;
 }
