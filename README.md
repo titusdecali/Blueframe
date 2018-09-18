@@ -81,7 +81,7 @@ oy-h = overflow-y: hidden;
   vertical-align: middle;
 }
 ```
-**Text Alignment*
+**Text Alignment**
 ```
 .tc {
 	text-align: center;
