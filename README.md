@@ -85,11 +85,11 @@ oy-h = overflow-y: hidden;
 **Text Alignment**
 ```
 .tc {
-	text-align: center;
+  text-align: center;
 }
 
 .tr {
-text-align: right;
+  text-align: right;
 }
 
 .tl {
@@ -119,11 +119,11 @@ text-align: right;
 ```
 // Adjust variables as needed
 .normal {
-font-weight: $normal;
+  font-weight: $normal;
 }
 
 .light {
-font-weight: $light;
+  font-weight: $light;
 }
 
 .semibold {
