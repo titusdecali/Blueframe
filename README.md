@@ -13,8 +13,7 @@ Check the `/base/.utils.scss` file to see how you can quickly add utility classe
 
 Padding can be added as follows:
 ```
-// Set padding ($p1, $p2, $p3, etc) and margin spacing ($m1, $m2, $m3, etc) in the same _utils.scss file
-// 
+// Start by setting padding ($p1, $p2, $p3, etc) and margin spacing ($m1, $m2, $m3, etc) in the same _utils.scss file
 
 pr-1 = padding-right: $p1
 ml-1 = padding-left: $p1
