@@ -8,6 +8,7 @@ After modifying the `/base/variables` file and adding your custom colors and res
 Check the `/base/.utils.scss` file to see how you can quickly add utility classes to your HTML quickly.
 
 **Base Utility Classes**
+
 Padding can be added as follows:
 ```
 pr-1 = padding-right: $p1 (set padding distances for 1,2,3 variables in the same file)
