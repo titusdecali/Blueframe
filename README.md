@@ -17,7 +17,7 @@ Padding can be added as follows:
 // and margin spacing ($m1, $m2, $m3, etc) in the same _utils.scss file
 
 pr-1 = padding-right: $p1
-ml-1 = padding-left: $p1
+pl-1 = padding-left: $p1
 px-1 = padding for horizontal right/left: $p1
 py-1 = padding for vertical top/bottom: $p1
 pt-1 = padding-top: $p1
@@ -26,12 +26,12 @@ pb-1 = padding-bottom: $p1
 
 Setting margins works the same way:
 ```
-mr-1
-ml-1
-mx-1
-my-1
-mt-1
-mb-1
+mr-1 = margin-right: $m1
+ml-1 = margin-left: $m1
+mx-1 = margin for horizontal right/left: $m1
+my-1 = margin for vertical top/bottom: $m1
+mt-1 = margin-top: $m1
+mb-1 = margin-bottom: $m1
 ```
 
 **EX:**
