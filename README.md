@@ -1,4 +1,4 @@
-![BF logo](https://cdn1.imggmi.com/uploads/2018/9/20/3c948bd2d9e3c4d9652be053c1977813-full.png "Blueframe")
+![BF logo](https://cdn1.imggmi.com/uploads/2018/9/20/fea69feea5b019d9e4b5ed515621d691-full.png "Blueframe")
 ##### Brought to you by [Blueprint.vc](https://www.Blueprint.vc)
 
 # Blueframe - SCSS Front-end Framework
