@@ -1,5 +1,5 @@
-![Blueframe Logo](https://imgur.com/a/wp7qfND)
-Brought to you by ![Blueprint Logo](<a href="blueprint.vc">https://imgur.com/a/WJvoBgx</a>)
+![BF logo](https://cdn1.imggmi.com/uploads/2018/9/20/4e3d6eb95f036dfdbb4b96d20424c4ee-full.png "Blueframe")
+##### Brought to you by [Blueprint.vc](https://www.Blueprint.vc)
 
 # Blueframe - SCSS Front-end Framework
 
