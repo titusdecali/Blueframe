@@ -191,7 +191,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Gibson", "system-ui", sans-serif;
+  font-family: "Montserrat", "system-ui", sans-serif;
   color: #0A225A;
   font-size: 17px; }
 
@@ -522,78 +522,6 @@ h6 {
 p {
   margin-top: 0; }
 
-/* Light */
-@font-face {
-  font-family: 'Gibson';
-  src: url("/fonts/Gibson-Light.eot");
-  src: url("/fonts/Gibson-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Gibson-Light.woff") format("woff"), url("/fonts/Gibson-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 300;
-  text-rendering: optimizeLegibility; }
-
-/* Normal */
-@font-face {
-  font-family: 'Gibson';
-  src: url("/fonts/Gibson-Regular.eot");
-  src: url("/fonts/Gibson-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Gibson-Regular.woff") format("woff"), url("/fonts/Gibson-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility; }
-
-/* SemiBold */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-SemiBold.eot");
-  src: url("./fonts/Gibson-SemiBold.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-SemiBold.woff") format("woff"), url("./fonts/Gibson-SemiBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-  text-rendering: optimizeLegibility; }
-
-/* Bold */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-Bold.eot");
-  src: url("./fonts/Gibson-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-Bold.woff") format("woff"), url("./fonts/Gibson-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-  text-rendering: optimizeLegibility; }
-
-/* Light + Italic */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-LightItalic.eot");
-  src: url("./fonts/Gibson-LightItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-LightItalic.woff") format("woff"), url("./fonts/Gibson-LightItalic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility; }
-
-/* Normal + Italic */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-Italic.eot");
-  src: url("./fonts/Gibson-Italic.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-Italic.woff") format("woff"), url("./fonts/Gibson-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-  text-rendering: optimizeLegibility; }
-
-/* SemiBold + Italic */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-SemiBoldItalic.eot");
-  src: url("./fonts/Gibson-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-SemiBoldItalic.woff") format("woff"), url("./fonts/Gibson-SemiBoldItalic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 600;
-  text-rendering: optimizeLegibility; }
-
-/* Bold + Italic */
-@font-face {
-  font-family: 'Gibson';
-  src: url("./fonts/Gibson-BoldItalic.eot");
-  src: url("./fonts/Gibson-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/Gibson-BoldItalic.woff") format("woff"), url("./fonts/Gibson-BoldItalic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: bold;
-  text-rendering: optimizeLegibility; }
-
 /* Modules */
 .btn,
 button {
@@ -850,7 +778,7 @@ body {
   padding: 0 20px; }
 
 .logo {
-  width: 100px;
+  width: 70px;
   position: relative;
   top: 5px;
   left: 20px; }
@@ -950,7 +878,7 @@ a svg path {
     padding: 0 10px; } }
 
 #mainNavBar {
-  padding-bottom: 4rem; }
+  padding-bottom: 1.2rem; }
 
 .navBar a {
   z-index: 100;
@@ -982,7 +910,7 @@ a svg path {
   .navBar a.icon {
     display: block;
     float: right;
-    font-size: 35px;
+    font-size: 30px;
     margin-right: 10px; }
   /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
   .navBar.responsive {
