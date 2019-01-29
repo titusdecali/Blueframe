@@ -3,10 +3,9 @@
 
 # Blueframe - SCSS Front-end Framework
 
-   Blueframe is an ultra light-weight frontend SCSS framework brought to you by Blueprint.vc. Blueframe is great for building smaller projects, or as a base to begin creating your own custom framework from. It consists of css resets and short, easy to understand utility classes. Class names have been adopted from the best css frameworks including Skeleton and Boostrap (minus the weight), while adding a few new ones for convenience or faster typing. It does not require any addition dependancies or script imports.
+   Blueframe is an ultra light-weight frontend SCSS framework brought to you by Blueprint.vc. Blueframe is great for building smaller projects, or as a base to begin creating your own custom framework. It consists of css resets and short, easy to understand utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It does not require any addition dependancies or script imports.
 
-   After modifying the `/base/variables` file and adding your custom colors and responsive break points to match your project's styleguide, you can then add any new custom classes to the `/modules/project.scss` file. This let's you continue to build your own custom framework for use across projects, while maintaining project-specific classes to a single file.
-
+   After modifying the `/base/variables` file and adding your custom colors and responsive break points to match your project's styleguide, you can then add any new custom classes to the `/modules/project.scss` file. This lets you continue to build your own custom framework that can grow with you, while maintaining project-specific classes.
 
 
 
