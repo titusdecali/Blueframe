@@ -135,7 +135,7 @@ oy-h = overflow-y: hidden;
 }
 
 .semibold {
-  font-weight: 600;
+  font-weight: $semibold;
 }
 
 .bold {
