@@ -148,9 +148,7 @@ Blueframe also includes a favicon and device-based images that can easily be mod
 
 Enjoy, and good luck!
 
-
-
-## **Copyright 2018 Blueprint Ventures Ltd.**
+MIT LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
