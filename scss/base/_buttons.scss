@@ -1,0 +1,169 @@
+// Base classes
+.btn {
+  background: $blue;
+  border: 2px solid $blue;
+  border-radius: $btn-border-radius;
+  color: $white;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: $ease;
+  vertical-align: middle;
+  box-sizing: border-box;
+  outline: none;
+
+  &:hover {
+    background: $blue-dark;
+    border-color: $blue-dark;
+    cursor: pointer;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid $blue-border;
+  border-radius: $btn-border-radius;
+  color: $blue;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: $ease;
+  user-select: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  outline: none;
+
+  &:hover {
+    background: $blue-border;
+    border-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.btn-alt {
+  background: $blue-light;
+  border: 2px solid $blue-light;
+  border-radius: $btn-border-radius;
+  color: $blue;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: $ease;
+  user-select: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  outline: none;
+
+  &:hover {
+    background: $blue-light;
+    cursor: pointer;
+    border: 2px solid $blue-border;
+  }
+
+  &:active {
+    border: 2px solid $blue;
+  }
+}
+
+.btn-nav {
+  outline: none;
+  font-size: 15px !important;
+  margin: 0 5px;
+  background: transparent;
+  border: 2px solid $blue-border;
+  border-radius: $btn-border-radius;
+  box-sizing: border-box;
+  color: $blue;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: $ease;
+  user-select: none;
+  vertical-align: middle;
+
+  &:hover {
+    background: $blue;
+    border-color: transparent;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &:active {
+    background: $blue;
+    border-color: $blue;
+    color: $white;
+  }
+}
+
+.btn-nav-active {
+  background: $blue;
+  border-color: $blue;
+  color: $white;
+}
+
+// Sizes
+.btn-small {
+  font-size: 16px;
+  padding: 4px 14px;
+}
+
+.btn-medium {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn-large {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.btn-mega {
+  font-size: 24px;
+  padding: 16px 28px;
+}
+
+.btn-disabled {
+  box-sizing: border-box;
+  background: $grey-light;
+  border: 2px solid $grey-light;
+  color: $white;
+
+  &:hover {
+    background: $grey-light;
+    border: 2px solid $grey-light;
+    color: $white;
+    cursor: default;
+  }
+}
+
+// Nav Settings
+.nav-link {
+  margin: 15px;
+  color: $text-grey;
+  text-decoration: none !important;
+}
+
+.nav-link-active {
+  margin-bottom: 0px;
+  color: $text-color;
+  text-decoration: none !important;
+  border-bottom: 2px solid $text-color;
+}
+
+.back-btn {
+  font-weight: bold;
+  color: $text-grey;
+  transition: $ease;
+  position: absolute;
+  top: 40px;
+  left: 25px;
+
+  &:hover {
+    cursor: pointer;
+    color: $text-color;
+  }
+}

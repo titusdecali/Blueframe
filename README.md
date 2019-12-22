@@ -1,24 +1,20 @@
-
-      
-##### Brought to you by [Blueprint.vc](https://www.Blueprint.vc)
+##### Created by [Titus Decali](https://www.TitusDecali.com)
 
 # Blueframe - SCSS Front-end Framework
 
-   Blueframe is an ultra light-weight frontend SCSS framework brought to you by Blueprint.vc. Blueframe is great for building smaller projects, or as a base to begin creating your own custom framework. It consists of css resets and short, easy to understand utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It includes CSS resets to ensure your designs start from the same point on every browser, and it does not require any addition dependancies or script imports.
+Blueframe is an ultra light-weight SCSS framework. It's great for building smaller projects, or as a base to begin creating your own custom framework. It uses short, easy to remember utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It includes CSS resets (Normalize CSS)to ensure your designs start from the same point on every browser. It does not require any addition dependancies or script imports.
 
-   After modifying the `/base/variables` file and adding your custom colors and responsive break points to match your project's styleguide, you can then add any new custom classes to the `/modules/project.scss` file. This lets you continue to build your own custom framework that can grow with you, while maintaining project-specific classes.
+You can set up all spacing variables, colors and other default settings via the `_variables.scss` file. For project-specific classes, you can add to the `/modules/project.scss` file. This lets you continue building a custom framework that can grow with you, while separating project-specific classes.
 
-
-
-Check the `/base/.utils.scss` file to see how you can quickly add utility classes to your HTML quickly.
+Check the `/base/.utils.scss` file to see how you can quickly add utility classes to your HTML.
 
 **Base Utility Classes**
 
-Padding can be added as follows:
-```
-// Start by setting padding ($p1, $p2, $p3, etc) 
-// and margin spacing ($m1, $m2, $m3, etc) in the same _utils.scss file
+All padding and margins go up to 5 (EX: px-5, mr-5)
 
+Padding can be added as follows:
+
+```
 pr-1 = padding-right: $p1
 pl-1 = padding-left: $p1
 px-1 = padding for horizontal right/left: $p1
@@ -28,7 +24,9 @@ pb-1 = padding-bottom: $p1
 ```
 
 Setting margins works the same way:
+
 ```
+mx-auto = margin-right: auto, margin-left: auto;
 mr-1 = margin-right: $m1
 ml-1 = margin-left: $m1
 mx-1 = margin for horizontal right/left: $m1
@@ -38,24 +36,28 @@ mb-1 = margin-bottom: $m1
 ```
 
 **EX:**
+
 ```
-<div class="mx-1"></div>
+<div class="mx-auto"></div>
 ```
 
 **Positioning Classes:**
+
 ```
-p-abs = position: absolute;
-p-rel = position: relative;
+absolute = position: absolute;
+relative = position: relative;
 ```
 
 **Display Classes:**
+
 ```
-d-block = display: block;
-d-inline = display: inline;
-d-inline-block = display: inline-block;
+block = display: block;
+inline = display: inline;
+inline-block = display: inline-block;
 ```
 
 **Overflow Classes:**
+
 ```
 o-h = overflow: hidden;
 ox-h = overflow-x: hidden;
@@ -63,6 +65,7 @@ oy-h = overflow-y: hidden;
 ```
 
 **View Width/Height, Float Classes:**
+
 ```
 .w-100 {
   width: 100%;
@@ -82,29 +85,35 @@ oy-h = overflow-y: hidden;
   float: left;
 }
 ```
+
 **Centering**
+
 ```
 // Vertical Centering
-.vc {
+.vertical-center {
   display: inline-block;
   vertical-align: middle;
 }
 ```
+
 **Text Alignment**
+
 ```
-.tc {
+.text-center {
   text-align: center;
 }
 
-.tr {
+.text-right {
   text-align: right;
 }
 
-.tl {
+.text-left {
   text-align: left;
 }
 ```
+
 **Text Decoration**
+
 ```
 .td-none {
   text-decoration: none;
@@ -124,6 +133,7 @@ oy-h = overflow-y: hidden;
 ```
 
 **Font Weights**
+
 ```
 // Adjust variables as needed
 .normal {
@@ -142,6 +152,7 @@ oy-h = overflow-y: hidden;
   font-weight: $bold;
 }
 ```
+
 **Included Images**
 
 Blueframe also includes a favicon and device-based images that can easily be modified to fit your project without searching for all the various image sizes you need to fit each device.

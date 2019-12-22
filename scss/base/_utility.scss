@@ -1,39 +1,27 @@
-// Utilities
+// Utility Classes
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
 // TEXT COLORS
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
-.c-wh {
-  color: $white;
-}
-
-.c-pr {
-  color: $primary-color;
-}
-
-.c-se {
-  color: $secondary-color;
+.text-light {
+  color: $text-light;
 }
 
 // FADED COLORS
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
 .faded-90 {
-  opacity: .90;
+  opacity: 0.9;
 }
 
 .faded-75 {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .faded-50 {
-  opacity: .50;
+  opacity: 0.5;
 }
 
 // POSITIONING
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
 .p-abs {
   position: absolute;
 }
@@ -44,7 +32,6 @@
 
 // DISPLAY TYPES
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
 .d-block {
   display: block !important;
 }
@@ -57,9 +44,8 @@
   display: inline-block !important;
 }
 
-
 /* OVERFLOWS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .o-h {
   overflow: hidden;
 }
@@ -73,7 +59,8 @@
 }
 
 /* SPACING
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+// Margin
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
@@ -83,7 +70,12 @@
   margin: 0;
 }
 
-.mx-1 {
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-1 {
   margin-top: $m1;
   margin-bottom: $m1;
 }
@@ -96,6 +88,16 @@
 .my-3 {
   margin-top: $m3;
   margin-bottom: $m3;
+}
+
+.my-4 {
+  margin-top: $m4;
+  margin-bottom: $m4;
+}
+
+.my-5 {
+  margin-top: $m5;
+  margin-bottom: $m5;
 }
 
 .mt-0 {
@@ -114,6 +116,14 @@
   margin-top: $m3;
 }
 
+.mt-4 {
+  margin-top: $m4;
+}
+
+.mt-5 {
+  margin-top: $m5;
+}
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -130,9 +140,22 @@
   margin-bottom: $m3;
 }
 
+.mb-4 {
+  margin-bottom: $m4;
+}
+
+.mb-5 {
+  margin-bottom: $m5;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .mx-1 {
@@ -148,6 +171,16 @@
 .mx-3 {
   margin-left: $m3;
   margin-right: $m3;
+}
+
+.mx-4 {
+  margin-left: $m4;
+  margin-right: $m4;
+}
+
+.mx-5 {
+  margin-left: $m5;
+  margin-right: $m5;
 }
 
 .ml-0 {
@@ -166,6 +199,14 @@
   margin-left: $m3;
 }
 
+.ml-4 {
+  margin-left: $m4;
+}
+
+.ml-5 {
+  margin-left: $m5;
+}
+
 .mr-0 {
   margin-right: 0;
 }
@@ -182,15 +223,24 @@
   margin-right: $m3;
 }
 
+.mr-4 {
+  margin-right: $m4;
+}
+
+.mr-5 {
+  margin-right: $m5;
+}
+
+// Padding
 .py-auto {
   padding: auto 0;
 }
 
 .p-0 {
-  padding: 0 ;
+  padding: 0;
 }
 
-.py-1 {
+.p-1 {
   padding: $p1;
 }
 
@@ -200,6 +250,14 @@
 
 .p-3 {
   padding: $p3;
+}
+
+.p-4 {
+  padding: $p4;
+}
+
+.p-5 {
+  padding: $p5;
 }
 
 .py-1 {
@@ -215,6 +273,16 @@
 .py-3 {
   padding-top: $p3;
   padding-bottom: $p3;
+}
+
+.py-4 {
+  padding-top: $p4;
+  padding-bottom: $p4;
+}
+
+.py-5 {
+  padding-top: $p5;
+  padding-bottom: $p5;
 }
 
 .pt-0 {
@@ -233,8 +301,16 @@
   padding-top: $p3;
 }
 
+.pt-4 {
+  padding-top: $p4;
+}
+
+.pt-5 {
+  padding-top: $p5;
+}
+
 .pb-0 {
-  padding-bottom: 0;  
+  padding-bottom: 0;
 }
 
 .pb-1 {
@@ -247,6 +323,14 @@
 
 .pb-3 {
   padding-bottom: $p3;
+}
+
+.pb-4 {
+  padding-bottom: $p4;
+}
+
+.pb-5 {
+  padding-bottom: $p5;
 }
 
 .px-0 {
@@ -269,6 +353,16 @@
   padding-right: $p3;
 }
 
+.px-4 {
+  padding-left: $p4;
+  padding-right: $p4;
+}
+
+.px-5 {
+  padding-left: $p5;
+  padding-right: $p5;
+}
+
 .pl-1 {
   padding-left: $p1;
 }
@@ -281,7 +375,15 @@
   padding-left: $p3;
 }
 
-// Div Alignment
+.pl-4 {
+  padding-left: $p4;
+}
+
+.pl-5 {
+  padding-left: $p5;
+}
+
+// Width & Height
 .w-100 {
   width: 100%;
   box-sizing: border-box;
@@ -292,6 +394,7 @@
   box-sizing: border-box;
 }
 
+// Floats
 .float-right {
   float: right;
 }
@@ -300,28 +403,33 @@
   float: left;
 }
 
-.vc {
-  display: inline-block;
-  vertical-align: middle;
+// Centering
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-items: center;
 }
 
 /* TEXT ALIGNMENT
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.tc {
-	text-align: center;
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.text-center {
+  text-align: center;
 }
 
-.tr {
-text-align: right;
+.text-right {
+  text-align: right;
 }
 
-.tl {
+.text-left {
   text-align: left;
 }
 
 /* TEXT DECORATION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .td-none {
   text-decoration: none;
 }
@@ -331,7 +439,7 @@ text-align: right;
 }
 
 /* CASE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .caps {
   text-transform: uppercase;
 }
@@ -339,25 +447,27 @@ text-align: right;
 .italic {
   font-style: italic;
 }
+
 /* LETTER SPACING
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .tracked {
-	letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 /* FONT WEIGHTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .normal {
-font-weight: $normal !important;
+  font-weight: $normal !important;
 }
+
 .light {
-font-weight: $light !important;
+  font-weight: $light !important;
 }
+
 .semibold {
   font-weight: 600 !important;
 }
+
 .bold {
   font-weight: $bold !important;
 }
-
-

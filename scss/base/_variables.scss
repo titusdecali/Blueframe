@@ -1,69 +1,69 @@
-// Variables
-//––––––––––––––––––––––––––––––––––––––––––––––––––
-
-// Colors
-$bg: #FAF7FD;
-$white: #fff;
-$light-grey: #e1e1e1 !default;
-$dark-grey: #333 !default;
-$primary-color: #132146 !default;
-$secondary-color: #F9254B !default;
-$border-color: #bbb !default;
-$nav-link-color: $primary-color !default;
-$link-color: #FFF !default;
-$link-hover-color: #FFD300 !default;
-$link-active-color: darken($link-hover-color, 10%);
-$font-color: #0A225A !default;
-
 // Typography
-$font-family: "Gibson", "system-ui", sans-serif !default;
+$font-family: Poppins,
+sans-serif;
 $bold: 700 !default;
 $semibold: 600 !default;
 $normal: 500 !default;
 $light: 300 !default;
-
-// Buttons
-$btn-radius: 4px !default;
-
-// Transitions
-$ease-all: all .2s ease-in-out;
-
-// Box Shadow
-$box-shadow1: 0 6px 4px 0 rgba(0,0,0,0.50);
-$box-shadow2: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
-
-// Border Radius
-$global-radius: 8px !default;
-$sq-radius: 93px !default;
-
-// Font Sizing
-$h1: 8rem;
-$h2: 7.4rem;
-$h3: 6.8rem;
-$h4: 4.5rem;
-$h5: 3.2rem;
-$h6: 2.2rem;
-$h7: 1.2rem;
-
 // Spacing
-$p1: 3rem;
-$p2: 6rem;
-$p3: 12rem;
+$p1: 1rem;
+$p2: 2rem;
+$p3: 3rem;
+$p4: 4rem;
+$p5: 5rem;
+$m1: 1rem;
+$m2: 2rem;
+$m3: 3rem;
+$m4: 4rem;
+$m5: 5rem;
+//Img
+$logo-height: 46px;
+// Colors
+$text-color: #2c3038;
+$text-light: #696974;
+$text-grey: #828d9a;
+$link-color: #000;
+$link-hover: #0062ff;
+$bg: #fdfdff;
+$white: #fff;
+$black: #000;
+$blue: #0062ff;
+$blue-dark: #0e47ba;
+$blue-light: #e5efff;
+$blue-border: #b9d3fd;
+$green: #3dd599;
+$green-light: #d9f6ea;
+$yellow: #ffc541;
+$yellow-light: #fff3db;
+$red: #fc5a5a;
+$red-light: #fee7e6;
+$danger: #dc3445;
+$success: #27a645;
+$success-light: #e9f6ec;
+$footer: #051b35;
+$grey-light: #b4bbc2;
+$grey: grey;
+// Border Radius
+$border-radius: 1rem;
+$btn-border-radius: 0.4rem;
+// Padding
+$padding: 20px;
+// Transitions
+$ease: all 0.16s ease-in-out;
+// Box Shadow
+$box-shadow-nav: rgba(0, 12, 32, 0.04) 0px 0px 1px 0px,
+rgba(10, 31, 68, 0.06) 0px 10px 16px 0px;
+$box-shadow-card: rgba(89, 93, 97, 0.05) 0 3px 0,
+rgba(94, 99, 104, 0.12) 0 4px 8px,
+rgba(90, 97, 105, 0.06) 0 10px 10px,
+rgba(90, 97, 105, 0.1) 0 7px 70px;
+$box-shadow-btn: 0 6px 4px 0 rgba(0, 0, 0, 0.15);
 
-$m1: 3rem;
-$m2: 6rem;
-$m3: 12rem;
+// Positioning
+.absolute {
+  position: absolute;
+}
 
-// Breakpoints
-$bp-larger-than-mobile    : "min-width: 400px" !default;
-$bp-larger-than-phablet   : "min-width: 550px" !default;
-$bp-larger-than-tablet    : "min-width: 750px" !default;
-$bp-larger-than-desktop   : "min-width: 1000px" !default;
-$bp-larger-than-desktophd : "min-width: 1200px" !default;
-
-//Grid Variables
-$page-wrapper-width: 1200px !default;
-$container-height: 600px !default;
-$container-width-larger-than-mobile: 85% !default;
-$container-width-larger-than-phablet: 80% !default;
-
+.relative {
+  position: relative;
+}

@@ -1,1 +1,0 @@
-function openDrawerMenu(){var a=document.getElementById("mainNavBar");"navBar"===a.className?a.className+=" responsive":a.className="navBar"}
