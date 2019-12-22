@@ -153,9 +153,6 @@ oy-h = overflow-y: hidden;
 }
 ```
 
-**Included Images**
-
-Blueframe also includes a favicon and device-based images that can easily be modified to fit your project without searching for all the various image sizes you need to fit each device.
 
 Enjoy, and good luck!
 
