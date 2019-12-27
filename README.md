@@ -4,6 +4,8 @@
 
 Blueframe is an ultra light-weight SCSS framework. It's great for building smaller projects, or as a base to begin creating your own custom framework. It uses short, easy to remember utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It includes CSS resets (Normalize CSS)to ensure your designs start from the same point on every browser. It does not require any addition dependancies or script imports.
 
+![Blueframe Preview](https://imgur.com/6xQUAgz)
+
 You can set up all spacing variables, colors and other default settings via the `base/_variables.scss` file. For project-specific classes, you can add to the `/project/project.scss` file. This lets you continue building a custom framework that can grow with you, while separating project-specific classes.
 
 Check the `/base/utility.scss` file to see how you can quickly add utility classes to your HTML.
