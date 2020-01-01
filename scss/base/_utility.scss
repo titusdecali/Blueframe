@@ -32,16 +32,24 @@
 
 // DISPLAY TYPES
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-.d-block {
+.block {
   display: block !important;
 }
 
-.d-inline {
+.inline {
   display: inline !important;
 }
 
-.d-inline-block {
+.inline-block {
   display: inline-block !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 /* OVERFLOWS
@@ -60,7 +68,6 @@
 
 /* SPACING
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-// Margin
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
@@ -68,6 +75,26 @@
 
 .m-0 {
   margin: 0;
+}
+
+.m-1 {
+  margin: $m1;
+}
+
+.m-2 {
+  margin: $m2;
+}
+
+.m-3 {
+  margin: $m3;
+}
+
+.m-4 {
+  margin: $m4;
+}
+
+.m-5 {
+  margin: $m5;
 }
 
 .my-0 {
@@ -183,6 +210,10 @@
   margin-right: $m5;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-0 {
   margin-left: 0;
 }
@@ -205,6 +236,10 @@
 
 .ml-5 {
   margin-left: $m5;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mr-0 {
@@ -231,7 +266,6 @@
   margin-right: $m5;
 }
 
-// Padding
 .py-auto {
   padding: auto 0;
 }
@@ -383,7 +417,7 @@
   padding-left: $p5;
 }
 
-// Width & Height
+// Div Alignment
 .w-100 {
   width: 100%;
   box-sizing: border-box;
@@ -394,7 +428,6 @@
   box-sizing: border-box;
 }
 
-// Floats
 .float-right {
   float: right;
 }
@@ -403,7 +436,6 @@
   float: left;
 }
 
-// Centering
 .vertical-center {
   display: flex;
   align-items: center;
@@ -434,7 +466,7 @@
   text-decoration: none;
 }
 
-.underlined {
+.underline {
   text-decoration: underline;
 }
 
@@ -470,4 +502,28 @@
 
 .bold {
   font-weight: $bold !important;
+}
+
+/* CLEARFIX: If you use floats, you can add a div with a class of 'clearfix' to prevent overflow on some other elements.
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* Mouse
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cursor {
+  cursor: pointer;
 }
