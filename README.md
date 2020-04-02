@@ -2,7 +2,7 @@
 
 # Blueframe - SCSS Front-end Framework
 
-Blueframe is an ultra light-weight SCSS framework. It's great for building smaller projects, or as a base to begin creating your own custom framework. It uses short, easy to remember utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It includes CSS resets (Normalize CSS)to ensure your designs start from the same point on every browser. It does not require any addition dependancies or script imports.
+Blueframe is an ultra light-weight SCSS framework. It's great for building smaller projects, or as a base to begin creating your own custom framework. It uses short, easy to remember utility classes. Class names have been adopted from the best css frameworks including Skeleton and Bootstrap (minus the weight), while adding a few new ones for convenience and faster typing. It includes CSS resets (Normalize CSS) to ensure your designs start from the same point on every browser. It does not require any addition dependancies or script imports.
 
 ![](Blueframe.gif)
 
